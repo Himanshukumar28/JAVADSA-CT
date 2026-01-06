@@ -11,7 +11,7 @@ public class Class01 {
         // else{
         //     System.out.println("Both are equale");
         // }
-
+        
     // int a = 10;
     // int b = 15;
     // int c = 12;
@@ -40,7 +40,6 @@ public class Class01 {
     //OR
     // int max = Math.max(Math.max(Math.max(a,b),c),d);
     // System.out.print(max);
-    
 
     //SECOND MAX
     // int a = 10;
@@ -50,6 +49,10 @@ public class Class01 {
     // int min = Math.min(Math.min(a,b),c);
     // int smax = (a+b+c) - (max+ min);
     // System.out.print(smax);
+
     
+
+
+
     }
 }

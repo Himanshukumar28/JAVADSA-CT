@@ -53,7 +53,7 @@ public class Class04 {
     //         System.out.print(i);
     //     }
     // }   
-    
+
     // int n =10;
     // int i =1;
     // while(i<=n){
@@ -77,6 +77,7 @@ public class Class04 {
     // else {
     //     System.out.println("Number is not Prime");
     // }
+
 
       
 

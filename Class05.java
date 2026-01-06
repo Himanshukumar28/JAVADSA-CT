@@ -13,11 +13,14 @@ public class Class05 {
     //     }
     //     System.out.println(fact);
 
+
         // Table
         // int N = sc.nextInt();
         // for(int i=1; i<=10; i++){
         //     System.out.println(N + " x " + i + " = " + N*i);
         // }
+
+
 
         //23dec
         //Reverse  A String
@@ -28,6 +31,7 @@ public class Class05 {
         //     rev = rev + s.charAt(i);
         // }
         // System.out.println(rev);
+
 
         //PALINDROME STRING 
         // String s  = "naman";
@@ -42,6 +46,7 @@ public class Class05 {
         //     System.out.println("not Palindrome");
 
         // }
+
 
     /* n = 1,2,3,4,5
         c = 0
@@ -70,6 +75,7 @@ public class Class05 {
         //     n = n / 10;
         // }
         // System.out.println(rev);
+
         
         //REVERSE ONLY PRIME DIGITS FROM AN INTEGERS
         // int n =12345 ;
@@ -104,24 +110,26 @@ public class Class05 {
         // System.out.println(oc);
         // System.out.println(ec);
 
-        int n = 10;
-        int cout= 0;
-        int happy = 0;
-        for(int i=1; i<=n; i++){
-            if(n%i==0){
-                cout = cout+ 1;
-            }
-        }
-        if(cout==2){
-            // System.out.println("Prime Number");
-            // int rem = n%10;
-            // else if(rem=2 || rem=3 || rem=5){
 
-            // }
-        }
-        else{
-            System.out.println("Not Prime Number");
-        }
+        //HAPPY NUMBERi
+        // int n = 10;
+        // int cout= 0;
+        // int happy = 0;
+        // for(int i=1; i<=n; i++){
+        //     if(n%i==0){
+        //         cout = cout+ 1;
+        //     }
+        // }
+        // if(cout==2){
+        //     // System.out.println("Prime Number");
+        //     // int rem = n%10;
+        //     // else if(rem=2 || rem=3 || rem=5){
+
+        //     // }
+        // }
+        // else{
+        //     System.out.println("Not Prime Number");
+        // }
 
 
     
