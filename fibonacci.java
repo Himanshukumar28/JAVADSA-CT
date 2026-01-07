@@ -16,12 +16,13 @@ public class fibonacci {
         // }
 
         //IN TERMS
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in); 
         int x = 0;
         int y = 1;
         int z =0;
-        int n;
+       // int n;
         int term = 1;
+        System.out.println("Enter value");
         int N = sc.nextInt();
         while(term<=N){
             System.out.println(z);

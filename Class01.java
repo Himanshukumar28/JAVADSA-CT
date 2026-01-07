@@ -50,7 +50,6 @@ public class Class01 {
     // int smax = (a+b+c) - (max+ min);
     // System.out.print(smax);
 
-    
 
 
 
