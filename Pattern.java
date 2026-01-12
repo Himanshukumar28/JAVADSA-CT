@@ -22,6 +22,14 @@ public class Pattern {
         //     }
         //     System.out.println();
         // }
+
+        // OR
+        for(int i=1; i<=5; i++){
+            for(int j=4; j>=i; j--){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
         
         
         // char ch = 'A';
@@ -33,13 +41,15 @@ public class Pattern {
         //     System.out.println();
         // }
 
-        int num = 1;
-        for(int i= 1; i<=5; i++){
-            for(int j = 1; j<=i; j++){
-                System.out.print(num);
-                num++;
-            }
-            System.out.println();
-        }
+        // int num = 1;
+        // for(int i= 1; i<=5; i++){
+        //     for(int j = 1; j<=i; j++){
+        //         System.out.print(num);
+        //         num++;
+        //     }
+        //     System.out.println();
+        // }
+    
     }
 }
+
