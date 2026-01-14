@@ -33,8 +33,12 @@ public class Oue_Operator {
         // System.out.println(d++  + ++D);
 
         //Que07.
-        int  m=1010;
-        int  n = 1010;
-        System.out.println(m++ / ++n * n-- / --m);
+        // int  m=1010;
+        // int  n = 1010;
+        // System.out.println(m++ / ++n * n-- / --m);
+
+        //Que02.
+        char ch = "123".charAt(1);
+        System.out.println(ch++ + ++ch);
     }
 }
