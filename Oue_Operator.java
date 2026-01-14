@@ -28,8 +28,13 @@ public class Oue_Operator {
         // System.out.println(++ch);
 
         //Que06.
-        double d = 1.5;
-        double D = 2.5;
-        System.out.println(d++  + ++D);
+        // double d = 1.5;
+        // double D = 2.5;
+        // System.out.println(d++  + ++D);
+
+        //Que07.
+        int  m=1010;
+        int  n = 1010;
+        System.out.println(m++ / ++n * n-- / --m);
     }
 }
