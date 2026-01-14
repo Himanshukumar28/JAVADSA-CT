@@ -23,7 +23,13 @@ public class Oue_Operator {
         // int ch = 'A';
         // System.out.println(ch++);
 
-        char ch = 'A';
-        System.out.println(++ch);
+        //Que05.
+        // char ch = 'A';
+        // System.out.println(++ch);
+
+        //Que06.
+        double d = 1.5;
+        double D = 2.5;
+        System.out.println(d++  + ++D);
     }
 }
