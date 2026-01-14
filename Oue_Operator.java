@@ -20,7 +20,10 @@ public class Oue_Operator {
         // System.out.println(a);
 
         //Que04.
-        int ch = 'A';
-        System.out.println(ch++);
+        // int ch = 'A';
+        // System.out.println(ch++);
+
+        char ch = 'A';
+        System.out.println(++ch);
     }
 }
