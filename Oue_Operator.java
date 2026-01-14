@@ -5,6 +5,7 @@ public class Oue_Operator {
         // i = i++ +  ++i;
         // System.out.println(i);
 
+        // Que02
         // int a = 11; 
         // int b = 22; 
         // int c ;
@@ -13,9 +14,13 @@ public class Oue_Operator {
         // System.out.println("b="+ b);
         // System.out.println("c="+c);
 
+        //Que03
         //compilation error:
-        int a = 11++;
-        System.out.println(a);
-        
+        // int a = 11++;
+        // System.out.println(a);
+
+        //Que04.
+        int ch = 'A';
+        System.out.println(ch++);
     }
 }
