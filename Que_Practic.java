@@ -81,7 +81,7 @@ public class Que_Practic {
             }
             System.out.print(c);
         }
-        sc.close();
+       // sc.close();
         
         
     
