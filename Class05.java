@@ -76,6 +76,7 @@ public class Class05 {
         // }
         // System.out.println(rev);
 
+
         
         //REVERSE ONLY PRIME DIGITS FROM AN INTEGERS
         // int n =12345 ;
