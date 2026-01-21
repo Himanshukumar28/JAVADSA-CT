@@ -85,19 +85,19 @@ public class Que_Practic {
 
     
         //LEETCODE 3099
-        int x = 25;
-        int sum = 0;
-        int temp = x;
-        while (temp>0) {
-            sum = temp % 10 + sum;
-            temp = temp / 10;
-        }
-        if(x % sum ==0){
-            System.out.println(sum);
-        }
-        else{
-            System.out.println(-1);
-        }
+        // int x = 25;
+        // int sum = 0;
+        // int temp = x;
+        // while (temp>0) {
+        //     sum = temp % 10 + sum;
+        //     temp = temp / 10;
+        // }
+        // if(x % sum ==0){
+        //     System.out.println(sum);
+        // }
+        // else{
+        //     System.out.println(-1);
+        // }
 
         //LEETCODE 3783.
     //     int n = sc.nextInt();
