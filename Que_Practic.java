@@ -98,8 +98,21 @@ public class Que_Practic {
         else{
             System.out.println(-1);
         }
+
+        //LEETCODE 3783.
+    //     int n = sc.nextInt();
+    //    // int n = 25;
+    //     int rev = 0;
+    //     int N = n;
+    //     while(n>0){
+    //         int rem = n%10;
+    //         rev = rev * 10 + rem;
+    //         n = n/10;
+    //     }
+    //     int ans = Math.abs(N - rev);
+        //System.out.println(n);
         
-    
+
 
 
     }

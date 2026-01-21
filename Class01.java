@@ -50,6 +50,8 @@ public class Class01 {
     // int smax = (a+b+c) - (max+ min);
     // System.out.print(smax);
 
+    //8817577016
+
 
 
 
