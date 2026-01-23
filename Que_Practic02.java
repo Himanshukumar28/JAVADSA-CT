@@ -26,18 +26,31 @@ public class Que_Practic02 {
         // System.out.println(cout);
 
         //LEETCODE 2119
-        int num = sc.nextInt();
-        //int num = 250;
-        if(num ==0){
-            System.out.println(true);
-        }
-        else if(num % 10==0){
-            System.out.println(false);
-        }
-        else{
-            System.out.println(true);
-        }
+        // int num = sc.nextInt();
+        // //int num = 250;
+        // if(num ==0){
+        //     System.out.println(true);
+        // }
+        // else if(num % 10==0){
+        //     System.out.println(false);
+        // }
+        // else{
+        //     System.out.println(true);
+        // }
 
+        //LEETCODE 1281
+        int n = sc.nextInt();
+        int digit = 0;
+        int multi = 1;
+        int sum = 0;
+        while (n>0) {
+            digit = n%10;
+            multi = multi*digit;
+            sum = sum + digit;
+            n = n/10;
+        }
+        System.out.println(multi-sum);
+        
 
     }
 }
