@@ -1,5 +1,7 @@
+import java.util.*;
 public class Que_Practic02 {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         //LEETCODE 2413
         // int n = 6;
         // int sint = 0;
@@ -24,7 +26,8 @@ public class Que_Practic02 {
         // System.out.println(cout);
 
         //LEETCODE 2119
-        int num = 250;
+        int num = sc.nextInt();
+        //int num = 250;
         if(num ==0){
             System.out.println(true);
         }
@@ -34,7 +37,7 @@ public class Que_Practic02 {
         else{
             System.out.println(true);
         }
-        
+
 
     }
 }
