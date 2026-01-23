@@ -34,6 +34,7 @@ public class Que_Practic02 {
         else{
             System.out.println(true);
         }
+        
 
     }
 }

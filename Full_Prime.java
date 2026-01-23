@@ -1,7 +1,7 @@
 import java.util.*;
 public class Full_Prime {
     public static void main(String[] args) {
-        Scanner sc= new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         //FULL PRIME
         // int n = sc.nextInt();
