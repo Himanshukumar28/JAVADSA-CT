@@ -39,17 +39,30 @@ public class Que_Practic02 {
         // }
 
         //LEETCODE 1281
-        int n = sc.nextInt();
-        int digit = 0;
-        int multi = 1;
-        int sum = 0;
-        while (n>0) {
-            digit = n%10;
-            multi = multi*digit;
-            sum = sum + digit;
-            n = n/10;
+        // int n = sc.nextInt();
+        // int digit = 0;
+        // int multi = 1;
+        // int sum = 0;
+        // while (n>0) {
+        //     digit = n%10;
+        //     multi = multi*digit;
+        //     sum = sum + digit;
+        //     n = n/10;
+        // }
+        // System.out.println(multi-sum);
+
+        //LEETCODE 633
+        int c = 5;
+        for(long a = 0; a*a<=c; a++){
+            double b = Math.sqrt(c-a);
+            if(b==(int)b){
+                System.out.println(true);
+            }
         }
-        System.out.println(multi-sum);
+        // if(b!==(int)b){
+        //     System.out.println(false);
+        // }
+        
         
 
     }
