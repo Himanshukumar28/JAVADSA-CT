@@ -1,6 +1,7 @@
 import java.util.*;
 public class Class07 {
     public static void main(String[] args) {
+        //POWER OF 2 , 3, 5 
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int n1 = n;
