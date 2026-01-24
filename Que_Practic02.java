@@ -52,16 +52,18 @@ public class Que_Practic02 {
         // System.out.println(multi-sum);
 
         //LEETCODE 633
-        int c = 5;
-        for(long a = 0; a*a<=c; a++){
-            double b = Math.sqrt(c-a);
-            if(b==(int)b){
-                System.out.println(true);
-            }
-        }
-        // if(b!==(int)b){
-        //     System.out.println(false);
+        // int c = 5;
+        // for(long a = 0; a*a<=c; a++){
+        //     double b = Math.sqrt(c-a);
+        //     if(b==(int)b){
+        //         System.out.println(true);
+        //     }
         // }
+        // // if(b!==(int)b){
+        // //     System.out.println(false);
+        // // }
+
+        
         
         
 
