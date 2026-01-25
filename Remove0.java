@@ -1,7 +1,11 @@
+import java.util.*;
 public class Remove0 {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter Value:");
+        long n = sc.nextLong();
         //REMOVE ALL ZERO OF THE DIGITS
-        long n = 10203039;
+       // long n = 10203039;
         long rev = 0;
         while (n>=1) {
             long rem = n%10;
