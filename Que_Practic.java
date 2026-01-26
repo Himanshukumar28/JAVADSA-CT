@@ -49,40 +49,40 @@ public class Que_Practic {
         // }
 
         //TRIBONACCI SERIES
-        // int  a = 0;
-        // int b = 0;
-        // int c = 1;
-        // System.out.println(a);
-        // System.out.println(b);
-        // System.out.println(c);
-        // for(int i=4; i<=10; i++){
-        // int d = a + b + c ;
-        //     System.out.println(d+" ");
-        //     a = b;
-        //     b =c;
-        //     c =d;
-    
-        // }
+        System.out.print("Enter Value");
+        int  a = 0;
+        int b = 0;
+        int c = 1;
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        for(int i=4; i<=10; i++){
+        int d = a + b + c ;
+            System.out.println(d+" ");
+            a = b;
+            b =c;
+            c =d;
+        }
 
         //IN TERMS
-        System.out.print("Enter value");
-        int n  = sc.nextInt();
-        if(n==0){
-            System.out.print(0);
-        }
-        else if(n==1|| n==2){
-            System.out.print(1);
-        }else{
-            int a = 0, b=1 , c = 1;
-            for(int i  =3; i<=n; i++){
-                int next = a + b + c;
-                a =b;
-                b= c;
-                c =next;
-            }
-            System.out.print(c);
-        }
-    sc.close();
+    //     System.out.print("Enter value");
+    //     int n  = sc.nextInt();
+    //     if(n==0){
+    //         System.out.print(0);
+    //     }
+    //     else if(n==1|| n==2){
+    //         System.out.print(1);
+    //     }else{
+    //         int a = 0, b=1 , c = 1;
+    //         for(int i  =3; i<=n; i++){
+    //             int next = a + b + c;
+    //             a =b;
+    //             b= c;
+    //             c =next;
+    //         }
+    //         System.out.print(c);
+    //     }
+    // sc.close();
 
     
         //LEETCODE 3099
