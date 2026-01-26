@@ -3,6 +3,7 @@ public class Class07 {
     public static void main(String[] args) {
         //POWER OF 2 , 3, 5 
         Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the Value");
         int n = sc.nextInt();
         int n1 = n;
         int n2 = n;
@@ -42,5 +43,6 @@ public class Class07 {
         if(check3==true){
             System.out.println("Power of 4");
         }
+       
     }
 }
