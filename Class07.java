@@ -3,7 +3,7 @@ public class Class07 {
     public static void main(String[] args) {
         //POWER OF 2 , 3, 5 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the Value");
+        System.out.print("Enter the Value");
         int n = sc.nextInt();
         int n1 = n;
         int n2 = n;
