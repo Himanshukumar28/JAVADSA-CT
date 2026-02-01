@@ -32,15 +32,29 @@ public class fibonacci {
         // }
 
         //FIBONACCI USING FOR LOOP 
-        int a = 0;
-        int b = 1;
-        int c  = 0;
-        for(int i = 1; i<=12; i++){
-            System.out.println(c);
-            a = b;
-            b = c;
-            c = a+ b;
+        // int a = 0;
+        // int b = 1;
+        // int c  = 0;
+        // for(int i = 1; i<=12; i++){
+        //     System.out.println(c);
+        //     a = b;
+        //     b = c;
+        //     c = a+ b;
             
+        // }
+
+        int n = sc.nextInt();
+        if(n==1 || n==2){
+            System.out.println(n);
         }
+        int a = 1;
+        int b = 2;
+        int sum = 0;
+        for(int i = 3; i<=n; i++){
+            sum = a+b;
+            a = b;
+            b = sum;
+        }
+        System.out.println(sum);
     }
 }
