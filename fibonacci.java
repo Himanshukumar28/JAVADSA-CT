@@ -40,7 +40,6 @@ public class fibonacci {
         //     a = b;
         //     b = c;
         //     c = a+ b;
-            
         // }
 
         int n = sc.nextInt();
