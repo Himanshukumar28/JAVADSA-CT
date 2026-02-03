@@ -4,6 +4,9 @@ public class Full_Prime {
         Scanner sc = new Scanner(System.in);
 
         //FULL PRIME
+        
+        //ALL DIGIT ARE PRIME:
+
         // int n = sc.nextInt();
         // boolean check = true;
         // while (n>0) {
