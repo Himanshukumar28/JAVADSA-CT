@@ -31,6 +31,7 @@ public class Pattern {
         //     }
         //     System.out.println();
         // }
+
         
         
         // char ch = 'A';
