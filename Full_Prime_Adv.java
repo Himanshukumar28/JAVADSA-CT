@@ -67,16 +67,8 @@ public class Full_Prime_Adv {
                 else{
                             System.out.println(false);
                     }
+
+
                 }
-}
-                
-
-
-
-
-
-
-            
-        
-    
+            }
 
