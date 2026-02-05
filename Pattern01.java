@@ -39,20 +39,46 @@ public class Pattern01 {
         // }
 
         //HALF WING PATTERN
+        // for(int i = 1; i<=n; i++){
+        //     for(int j = 1; j<=i; j++){
+        //         System.out.print("*");
+        //     }
+        //     System.out.println();
+        // }
+        // for(int k =n-1; k>=1; k--){
+        //     for(int l =1; l<=k; l++ ){
+        //         System.out.print("*");
+        //     }
+        //     System.out.println();
+        // }
+
+        //BINARY SEARCH
         for(int i = 1; i<=n; i++){
             for(int j = 1; j<=i; j++){
-                System.out.print("*");
-            }
+                if(i%2==0){
+                    if(j%2==0){
+                        System.out.print(1);
+                    }
+                    else{
+                        System.out.print(0);
+                    }
+                }
+                else{
+                        if(j%2==0){
+                            System.out.print(0);
+                        }
+                        else{
+                            System.out.print(1);
+                        }
+                    }
+                }
             System.out.println();
         }
-        for(int k =n-1; k>=1; k--){
-            for(int l =1; l<=k; l++ ){
-                System.out.print("*");
-            }
-            System.out.println();
-        }
+        
 
 
 
     }
+
 }
+
