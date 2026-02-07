@@ -4,20 +4,33 @@ public class Pattern_Adv2 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         
+        //7feb
         //SQUARE HOLLOW
+        // for(int i = 1; i<=n; i++){
+        //     for(int j = 1; j<=n; j++){
+        //         if(i ==1 || i==n){
+        //             System.out.print('*');
+        //         }
+        //         else{
+        //             if(j==1 || j==n){
+        //                 System.out.print("*");
+        //             }
+        //             else{
+        //                 System.out.print("  ");
+        //             }
+        //         }
+        //     }
+        //     System.out.println();
+        // }
+
+        //TRIANGLE
+
         for(int i = 1; i<=n; i++){
-            for(int j = 1; j<=n; j++){
-                if(i ==1 || i==n){
-                    System.out.print('*');
-                }
-                else{
-                    if(j==1 || j==n){
-                        System.out.print("*");
-                    }
-                    else{
-                        System.out.print(" ");
-                    }
-                }
+            for(int j = 1; j<=n-i; j++){
+                System.out.print(" ");  //space
+            }
+            for(int j = 1; j<=2*i-1; j++){
+                System.out.print("*");  //star
             }
             System.out.println();
         }
