@@ -55,15 +55,16 @@ public class Pattern_Adv2 {
         //     System.out.println();
         // }
 
+        //HALF WING WITH NUMBER
         for(int i = 1; i<=n; i++){
             for(int j = 1; j<=i; j++){
-                System.out.print(i);  //num
+                System.out.print(j);  //num
             }
             for(int j = 1; j<=2*(n-i); j++){
                 System.out.print(" ");  //space
             }
-            for(int j = 1; j<=i; j++){
-                System.out.print(i);  //num
+            for(int j = i; j>=1; j--){
+                System.out.print(j);  //num
             }
             System.out.println();
         }
