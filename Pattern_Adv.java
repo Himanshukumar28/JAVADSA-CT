@@ -63,51 +63,40 @@ public class Pattern_Adv {
 
         //DIAMOND 
 
-        // for(int i = n; i>=1; i--){
-        //     for(int j = 1; j<=i; j++){
-        //         System.out.print("*");
-        //     }
-        //     for(int j = 1; j<=2*(n-i); j++){
-        //         System.out.print(" ");
-        //     }
-        //     for(int j = 1; j<=i; j++){
-        //         System.out.print("*");
-        //     }
-        //     System.out.println();
-        // }
-        // for(int i = 1; i<=n; i++){
-        //     for(int j = 1; j<=i; j++){
-        //         System.out.print("*");
-        //     }
-        //     for(int j = 1; j<=2*(n-i); j++){
-        //         System.out.print(" ");
-        //     }
-        //     for(int j = 1; j<=i; j++){
-        //         System.out.print("*");
-        //     }
-        //     System.out.println();
-        // }
-        // for(int i = 1; i<=n; i++){
-        //     for(int j = 1; j<=i; j++){
-        //         System.out.print("*");
-        //     }
-        //     for(int j = 1; j<=2*(n-i); j++){
-        //         System.out.print(" ");
-        //     }
-        //     for(int j = 1; j<=i; j++){
-        //         System.out.print("*");
-        //     }
-        //     System.out.println();
-        // }
-
-        int z = 1;
-        for(int i = 1; i<=n; i++){
+        for(int i = n; i>=1; i--){
             for(int j = 1; j<=i; j++){
-                System.out.print(z +" ");
-                z++;
+                System.out.print("*");
+            }
+            for(int j = 1; j<=2*(n-i); j++){
+                System.out.print(" ");
+            }
+            for(int j = 1; j<=i; j++){
+                System.out.print("*");
             }
             System.out.println();
         }
+        for(int i = 1; i<=n; i++){
+            for(int j = 1; j<=i; j++){
+                System.out.print("*");
+            }
+            for(int j = 1; j<=2*(n-i); j++){
+                System.out.print(" ");
+            }
+            for(int j = 1; j<=i; j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        
+
+        // int z = 1;
+        // for(int i = 1; i<=n; i++){
+        //     for(int j = 1; j<=i; j++){
+        //         System.out.print(z +" ");
+        //         z++;
+        //     }
+        //     System.out.println();
+        // }
     
 
 
