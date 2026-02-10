@@ -3,6 +3,7 @@ public class function01 {
         int n = 5;
         System.out.println(fibonacci(n));
         System.out.println(ttribonaci(n));
+        System.out.println(prime(n));
     }
     public static int fibonacci(int n){
         if( n ==0 || n ==1) return n;
@@ -26,5 +27,14 @@ public class function01 {
             c = sum;
         }
         return sum;
+    }
+
+    public static boolean prime(int n){
+        int cout =  0;
+        for(int i = 1; i<=n; i++){
+            if(n%i==0) cout++;
+        }
+        if(cout==2)return false;
+        else return true;
     }
 }
