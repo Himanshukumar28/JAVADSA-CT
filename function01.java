@@ -1,9 +1,12 @@
 public class function01 {
     public static void main(String[] args) {
         int n = 5;
+        int a = 12;
+        int b = 18;
         System.out.println(fibonacci(n));
         System.out.println(ttribonaci(n));
         System.out.println(prime(n));
+        System.out.println(printgcd(a,b));
     }
     public static int fibonacci(int n){
         if( n ==0 || n ==1) return n;
@@ -36,5 +39,17 @@ public class function01 {
         }
         if(cout==2)return false;
         else return true;
+    }
+
+    public static int printgcd(int a , int b){
+        int gcd = 1;
+        int min = Math.min(a, b);
+        for(int i = min; i>=1; i--){
+            if(a % i ==0 && b % i ==0){
+                gcd = i;
+                break;
+            }
+        }
+        return gcd;
     }
 }
