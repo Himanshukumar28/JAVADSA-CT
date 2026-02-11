@@ -37,8 +37,8 @@ public class function01 {
         for(int i = 1; i<=n; i++){
             if(n%i==0) cout++;
         }
-        if(cout==2)return false;
-        else return true;
+        if(cout==2)return true;
+        else return false;
     }
 
     public static int printgcd(int a , int b){

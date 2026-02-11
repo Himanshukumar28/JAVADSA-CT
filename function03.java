@@ -6,6 +6,8 @@ public class function03 {
 
         System.out.println(reversOfN(n));
         System.out.println(palindromeCheck(n));
+        System.out.println(productOfDigits(n));
+        System.out.println(checkArmstrongNumber(n));
     }
 
     public static int reversOfN(int n){
@@ -28,5 +30,19 @@ public class function03 {
         }
         if(rev == dummy) return true;
         else return false;
+    }
+
+    public static int productOfDigits(int n){
+        int pro = 1;
+        while(n!= 0){
+            int rem = n % 10;
+            pro = pro * rem;
+            n = n /10;
+        }
+        return pro;
+    }
+
+    public static boolean checkArmstrongNumber(int n){
+        
     }
 }
