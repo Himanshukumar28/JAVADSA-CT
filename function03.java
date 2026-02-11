@@ -5,6 +5,7 @@ public class function03 {
         int n = sc.nextInt();
 
         System.out.println(reversOfN(n));
+        System.out.println(palindromeCheck(n));
     }
 
     public static int reversOfN(int n){
@@ -15,5 +16,17 @@ public class function03 {
             n = n/10;
         }
         return rev;
+    }
+
+    public static boolean palindromeCheck(int n){
+        int rev = 0;
+        int dummy = n;
+        while (n!= 0) {
+            int rem = n  %10;
+            rev = rev * 10 + rem;
+            n = n/10;
+        }
+        if(rev == dummy) return true;
+        else return false;
     }
 }
