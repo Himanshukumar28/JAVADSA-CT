@@ -1,7 +1,19 @@
+import java.util.*;
 public class function03 {
     public static void main(String[] args) {
-        System.out.println();
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        System.out.println(reversOfN(n));
     }
 
-    
+    public static int reversOfN(int n){
+        int rev = 0;
+        while(n!=0){
+            int rem = n%10;
+            rev = rev * 10 +rem;
+            n = n/10;
+        }
+        return rev;
+    }
 }
