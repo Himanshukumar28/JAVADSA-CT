@@ -43,6 +43,24 @@ public class function03 {
     }
 
     public static boolean checkArmstrongNumber(int n){
-        
+        int count = 0;
+        int d1 = n;
+        int d2 = n;
+        while(n != 0){
+            count++;
+            n = n /10;
+        }
+        int sum = 0;
+        while(d1 != 0){
+            int rem = d1 % 10;
+            int ans = 1;
+            for(int i = 1; i<=count; i++){
+                ans = ans * rem;
+            }
+            sum = sum + ans;
+            d1 = d1/10;
+        }
+        if(d2==sum) return true;
+        else return false;
     }
 }
