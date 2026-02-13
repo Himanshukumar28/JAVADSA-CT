@@ -8,6 +8,8 @@ public class function03 {
         System.out.println(palindromeCheck(n));
         System.out.println(productOfDigits(n));
         System.out.println(checkArmstrongNumber(n));
+        int x = 10;
+        System.out.println(harshadnumber(x));
     }
 
     public static int reversOfN(int n){
@@ -62,5 +64,18 @@ public class function03 {
         }
         if(d2==sum) return true;
         else return false;
+    }
+
+    public static int harshadnumber(int x){
+         int sum = 0;
+        int temp = x;
+        while(temp>0){
+            sum = temp % 10 + sum;
+            temp = temp/10;
+        }
+         if(x % sum == 0)
+            return sum;
+         else
+            return -1;
     }
 }
