@@ -67,15 +67,15 @@ public class function03 {
     }
 
     public static int harshadnumber(int x){
-         int sum = 0;
+        int sum = 0;
         int temp = x;
         while(temp>0){
             sum = temp % 10 + sum;
             temp = temp/10;
         }
-         if(x % sum == 0)
+        if(x % sum == 0)
             return sum;
-         else
+        else
             return -1;
     }
 }
