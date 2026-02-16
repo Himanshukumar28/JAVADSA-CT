@@ -21,7 +21,7 @@ public class function04 {
             System.out.println();
         }
     }
-    
+
     public static void printrighttringle(int n){
         for(int i = 1; i<=n; i++){
             for(int j = 1; j<=i; j++){
@@ -142,6 +142,10 @@ public class function04 {
             System.out.println();
         }
     }
+
+    
+
+
 }
 
 
