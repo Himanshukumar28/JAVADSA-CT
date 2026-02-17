@@ -4,7 +4,11 @@ public class oops_inheritance {
         c1.age = 6;
         c1.eyeColor = "Black";
 
+        grandchild c2 = new grandchild();
+        c2.roleno = 21;
+
         System.out.println(c1.eyeColor);
+        System.out.println(c2.roleno);
     }
 }
 
@@ -33,6 +37,6 @@ class child extends parents {
 }
 
 class grandchild extends child{
-    String rollno;
+    int roleno;
 }
 
