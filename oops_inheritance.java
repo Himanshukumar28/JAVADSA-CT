@@ -11,10 +11,12 @@ public class oops_inheritance {
         // System.out.println(c2.roleno);
 
         child1 c1 = new child1();
+        c1.gender ="mail";
         c1.age = 18;
         c1.height = 6;
         System.out.println(c1.height);
         System.out.println(c1.age);
+        System.out.println(c1.gender);
     }
 }
 
