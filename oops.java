@@ -15,6 +15,7 @@ public class oops {
         System.out.println(s1.name);
         System.out.println(t1.empNo);
         System.out.println(t1.gender);
+        System.out.println(t1.name);
     }
 }
 
