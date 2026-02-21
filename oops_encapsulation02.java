@@ -6,10 +6,10 @@ public class oops_encapsulation02 {
         System.out.println(a1.name);
         System.out.println(a1.age);
         System.out.println(a1.animalProperties("Barking"));
+
         Animal a2 = new Animal();
         a2.name = "anam";
         a2.age = 20;
-        
         System.out.println(a2.name);
         System.out.println(a2.age);
         System.out.println(a2.animalProperties("Singing"));
