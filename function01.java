@@ -7,6 +7,7 @@ public class function01 {
         System.out.println(ttribonaci(n));
         System.out.println(prime(n));
         System.out.println(printgcd(a,b));
+        welcome();
     }
     public static int fibonacci(int n){
         if( n ==0 || n ==1) return n;
@@ -51,5 +52,9 @@ public class function01 {
             }
         }
         return gcd;
+    }
+
+    public static void welcome(){
+        System.out.println("Welcome home");
     }
 }
