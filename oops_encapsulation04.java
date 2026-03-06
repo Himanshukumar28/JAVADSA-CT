@@ -10,6 +10,7 @@ public class oops_encapsulation04 {
         System.out.println(c1.getEye());
         System.out.println(c1.getHeight());
         System.out.println(c1.name);
+        System.out.println("ABC");
     }
 }
 class grandParent{
