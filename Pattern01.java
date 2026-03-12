@@ -2,7 +2,7 @@ import java.util.*;
 public class Pattern01 {
     public static void main(String[] args) {
         //CREATE NESTED LOOP
-        //THINK FOR ROWS AND COLLUMNS
+        //THINK FOR ROWS AND COLUMNS
         //GENERAL FORMULA
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
