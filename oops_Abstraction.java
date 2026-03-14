@@ -16,7 +16,7 @@ class SBI extends RBI{
     void interestRate(){  //fixed and decide by rbi
         System.out.println("6 % on car loan");
     }
-    void interestOnRd(){   //fixed and decide by rbi
+    void interestOnRd(){   //fixed and decide by rbi 
         System.out.println("6.5 % on RD");
     }
 }
