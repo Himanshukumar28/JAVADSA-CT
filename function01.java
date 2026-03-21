@@ -34,11 +34,11 @@ public class function01 {
     }
 
     public static boolean prime(int n){
-        int cout =  0;
+        int count =  0;
         for(int i = 1; i<=n; i++){
-            if(n%i==0) cout++;
+            if(n%i==0) count++;
         }
-        if(cout==2)return true;
+        if(count==2)return true;
         else return false;
     }
 
