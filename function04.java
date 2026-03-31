@@ -5,7 +5,7 @@ public class function04 {
         int n = sc.nextInt();
 
         printsquarepattern(n);
-        printbinary(n);
+        printbinary(n); 
         printrighttringle(n);
         printsquarehollow(n);
         printhalfbutterfly(n);
