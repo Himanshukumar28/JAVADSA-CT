@@ -31,5 +31,7 @@ public class Hashmap {
 
         //IS Empty
         System.out.println(hm.isEmpty());
+
+      //  hm.clear(); // Use to clear the map
     }
 }
