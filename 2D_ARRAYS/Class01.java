@@ -12,6 +12,7 @@ public class Class01 {
         System.out.println();
       }
 
+      //Search
       //CHECK TARGET PRESENT OR NOT IN ARRAY 
       int target = 8;
       boolean check = false;
